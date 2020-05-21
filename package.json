@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,8 @@
     "lodash": "^4.17.15",
     "moment": "^2.25.3",
     "puppeteer": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2"
   }
 }
