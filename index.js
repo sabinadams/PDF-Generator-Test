@@ -17,7 +17,7 @@ app.post('/generatePDF', async (req, res) => {
 
 app.get('/', async (req, res) => {
     res.send({
-        message: 'success'
+        message: 'success new'
     })
 })
 
