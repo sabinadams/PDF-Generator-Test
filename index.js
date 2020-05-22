@@ -16,4 +16,4 @@ app.post('/generatePDF', async (req, res) => {
 })
 
 // Start up the application on the given port
-app.listen( 9938, () => console.log('App Listening on 9938'))
+app.listen( process.env.PORT, () => console.log(`App Listening on ${process.env.PORT}`))
