@@ -15,5 +15,11 @@ app.post('/generatePDF', async (req, res) => {
 
 })
 
+app.get('/', async (req, res) => {
+    res.send({
+        message: 'success'
+    })
+})
+
 // Start up the application on the given port
 app.listen( process.env.PORT, () => console.log(`App Listening on ${process.env.PORT}`))
